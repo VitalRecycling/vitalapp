@@ -22,7 +22,7 @@ public class Tab2Fragment extends Fragment {
 
         View view = inflater.inflate(R.layout.tab2_fagments,container,false);
 
-        btnTEST = (Button) view.findViewById(R.id.btnTEST2);
+        btnTEST = view.findViewById(R.id.btnTEST2);
 
         btnTEST.setOnClickListener(new View.OnClickListener() {
             @Override

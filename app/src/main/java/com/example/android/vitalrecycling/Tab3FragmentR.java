@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class Tab1Fragment extends Fragment {
+public class Tab3FragmentR extends Fragment {
 
-    private static final String TAG = "TabFragment";
+    private static final String TAG = "Tab3FragmentR";
 
     private Button btnTEST;
 
@@ -21,14 +21,14 @@ public class Tab1Fragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //return super.onCreateView(inflater, container, savedInstanceState);
 
-        View view = inflater.inflate(R.layout.tab1_fagments,container,false);
+        View view = inflater.inflate(R.layout.tab3_fagmentsr,container,false);
 
-        btnTEST = view.findViewById(R.id.btnTEST);
+        btnTEST = view.findViewById(R.id.btnTEST3);
 
         btnTEST.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 1", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 3", Toast.LENGTH_SHORT).show();
 
             }
         });

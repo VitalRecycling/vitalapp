@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate(Bundle) called");  //logging the activity lifecycle
         setContentView(R.layout.activity_main);
 
-        mTitleTextView = (TextView) findViewById(R.id.title_main);
-        mTitle2TextView = (TextView) findViewById(R.id.title2);
-        mQuestionTextView = (TextView) findViewById(R.id.question1);
+        mTitleTextView = findViewById(R.id.title_main);
+        mTitle2TextView = findViewById(R.id.title2);
+        mQuestionTextView = findViewById(R.id.question1);
 
-        mCashButton = (Button) findViewById(R.id.cashbutton);
+        mCashButton = findViewById(R.id.cashbutton);
 
         //action for the cash button
         mCashButton.setOnClickListener(new View.OnClickListener() {
@@ -48,23 +49,24 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        mRecycleButton = (Button) findViewById(R.id.recyclebutton);
+        mRecycleButton = findViewById(R.id.recyclebutton);
 
         //action for the recycle button
         mRecycleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /* simple toast
-                Toast.makeText(MainActivity.this, R.string.recycle_toast, Toast.LENGTH_SHORT).show();
-                */
+                // simple toast
+                //Toast.makeText(MainActivity.this, R.string.recycle_toast, Toast.LENGTH_SHORT).show();
+
                 Intent i;
                 i = new Intent(MainActivity.this, RecycleActivity.class);
                 startActivity(i);
+
             }
         });
 
-
     }
+
 
     @Override
     public void onStart() {

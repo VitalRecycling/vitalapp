@@ -1,4 +1,8 @@
 <resources>
+
+
+
+
     <string name="app_name">Vital Recycling</string>
     <string name="vital_recycling">Vital Recycling!</string>
     <string name="where_recycling_matters">Where Recycling Matters</string>
@@ -12,8 +16,59 @@
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
     <string name="test">Test</string>
     <string name="title_activity_recycle">RecycleActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab1_recycle">Tab1 Recycle</string>
+    <string name="testbtn_1">TESTBTN 1</string>
+    <string name="image_of_project">image of project</string>
+    <string name="recycletitle">Kingsville City Recycling Center</string>
+    <string name="testbtn_2">TESTBTN 2</string>
+    <string name="tab2_recycle">Tab2 Recycle</string>
+    <string name="material_image">material image</string>
+    <string name="recycle_info">The Kingsville Recycling Center provides the community
+        a convenient and efficient method of diversion of renewable resources from the
+        city landfill, the education of recycling to the public, and to continue the
+        pursuit of meeting the goals of SB1340 by the State of Texas. Recycling Center
+        collaborates with Sanitation Division and Landfill Division to collect the city’s recycling.
+        \n\nBelow is a list of acceptable materials.
+    </string>
+    <string name="infotitle">Information </string>
+    <string name="contact_info"><b>Attention:</b> Jennifer Bernal\n
+        <b>Mailing:</b> P.O. Box 1458 Kingsville, TX 78364\n
+        <b>Physical:</b> 202 W. Lee Kingsville, TX 78363\n
+        <b>Phone:</b> (361) 595-8093\n
+        <b>Fax:</b> (361) 595-8042\n
+        <b>E-Mail:</b> jbernal@cityofkingsville.com
+    </string>
+    <string name="hours"><b>Monday - Friday:\n</b>
+        7:30a.m. - 12:00p.m.\n
+        1:00p.m. - 4:30p.m.\n
+        <b>1st and 3rd saturday:\n</b>
+        9:00a.m. - 12:00p.m.\n\n
+        <i>Closed on all City Holidays</i>
+    </string>
+    <string name="contact_title">Contact Information</string>
+    <string name="hour_title">Hours of Operation</string>
+    <string name="cashtitle">ABC Recycling </string>
+    <string name="cashInfo">ABC Recycling is a privately owned busniess which buys SCRAP METAL.
+        The materials they buy vary from cans, scrap aluminum, copper, brass, stainless steel, car batteries, lead, motors, and more.
+    </string>
+    <string name="cashcontact_title">Contact Information</string>
+    <string name="cashcontact_text"><b>Physical:</b> 708 S. Sixth St Kingsville, Texas 78363\n\n
+        <b>Phone:</b> (361) 592-3443\n
+    </string>
+    <string name="cashhours_title">Hours of Operation</string>
+    <string name="cashhours_text"><b>Mondays:\n</b>
+        closed\n
+        <b>Tuesday - Friday:\n</b>
+        9:00a.m. - 5:00p.m.\n
+        <b>Weekends:\n</b>
+        9:00a.m. - 3:00p.m.\n\n
+    </string>
+    <string name="popup_button">ClosePopupBtn</string>
+    <string name="popup_text">This is a popup window..</string>
+    <string name="popupbutton">PopupWindow</string>
 
 </resources>

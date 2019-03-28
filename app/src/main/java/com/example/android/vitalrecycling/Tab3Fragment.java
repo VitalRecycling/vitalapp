@@ -22,7 +22,7 @@ public class Tab3Fragment extends Fragment {
 
         View view = inflater.inflate(R.layout.tab3_fagments,container,false);
 
-        btnTEST = (Button) view.findViewById(R.id.btnTEST3);
+        btnTEST = view.findViewById(R.id.btnTEST3);
 
         btnTEST.setOnClickListener(new View.OnClickListener() {
             @Override

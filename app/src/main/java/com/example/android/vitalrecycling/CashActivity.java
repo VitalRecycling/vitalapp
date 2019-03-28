@@ -37,21 +37,51 @@ public class CashActivity extends AppCompatActivity {
 
         mSectionsPageAdapter = new SectionsPageAdapter(getSupportFragmentManager());
 
-        // set up the VeiwPager with the Section adapter
-        mViewPager = (ViewPager) findViewById(R.id.container);
+        // set up the ViewPager with the Section adapter
+        mViewPager = findViewById(R.id.container);
         setupViewPager(mViewPager);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
     }
 
     private void setupViewPager(ViewPager viewPager){
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Tab1Fragment(), "TAB1");
-        adapter.addFragment(new Tab2Fragment(), "TAB2");
-        adapter.addFragment(new Tab3Fragment(), "TAB3");
+        adapter.addFragment(new Tab1Fragment(), "Info");
+        adapter.addFragment(new Tab2Fragment(), "Prices");
+        adapter.addFragment(new Tab3Fragment(), "Location");
         viewPager.setAdapter(adapter);
 
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        Log.d(TAG, "onStart() called");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        Log.d(TAG, "onPause() called");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d(TAG, "onResume() called");
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d(TAG, "onStop() called");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy() called");
     }
 
 }
