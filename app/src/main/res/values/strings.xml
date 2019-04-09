@@ -1,8 +1,6 @@
 <resources>
 
 
-
-
     <string name="app_name">Vital Recycling</string>
     <string name="vital_recycling">Vital Recycling!</string>
     <string name="where_recycling_matters">Where Recycling Matters</string>
@@ -67,8 +65,8 @@
         <b>Weekends:\n</b>
         9:00a.m. - 3:00p.m.\n\n
     </string>
-    <string name="popup_button">ClosePopupBtn</string>
-    <string name="popup_text">This is a popup window..</string>
-    <string name="popupbutton">PopupWindow</string>
+    <string name="campusbutton">TAMUK</string>
+    <string name="title_activity_campus">CampusActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>

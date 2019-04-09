@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mQuestionTextView;
     private Button mCashButton;
     private Button mRecycleButton;
+    private Button mCampusButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +61,21 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent i;
                 i = new Intent(MainActivity.this, RecycleActivity.class);
+                startActivity(i);
+
+            }
+        });
+
+        mCampusButton = findViewById(R.id.campusbutton);
+
+        mCampusButton. setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                //simple toast
+                //Toast.makeText(MainActivity.this, R.string.recycle_toast, Toast.LENGTH_SHORT).show();
+
+                Intent i;
+                i = new Intent(MainActivity.this, CampusActivity.class);
                 startActivity(i);
 
             }
