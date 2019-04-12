@@ -1,5 +1,6 @@
 package com.example.android.vitalrecycling;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -43,6 +44,17 @@ public class CashActivity extends AppCompatActivity {
 
         TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
+        FloatingActionButton fab = findViewById(R.id.fabHome1);
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i;
+                i = new Intent(CashActivity.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
     private void setupViewPager(ViewPager viewPager){

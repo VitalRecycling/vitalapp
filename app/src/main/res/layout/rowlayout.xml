@@ -12,11 +12,11 @@
     android:paddingBottom="8dp">
 
     <!--ImageView for the images of the materials-->
-    <ImageView
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:contentDescription="@string/material_image"
-        android:src="@mipmap/ic_launcher_round" />
+    <!--<ImageView-->
+        <!--android:layout_width="32dp"-->
+        <!--android:layout_height="32dp"-->
+        <!--android:contentDescription="@string/material_image"-->
+        <!--android:src="@mipmap/ic_launcher_round" />-->
 
     <!--TextView for the images of the TextView-->
     <TextView

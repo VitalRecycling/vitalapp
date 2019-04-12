@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.android.vitalrecycling.R;
+
 public class Tab3FragmentR extends Fragment {
 
     private static final String TAG = "Tab3FragmentR";

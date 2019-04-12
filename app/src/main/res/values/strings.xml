@@ -68,5 +68,6 @@
     <string name="campusbutton">TAMUK</string>
     <string name="title_activity_campus">CampusActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="sign_out">Sign Out</string>
 
 </resources>

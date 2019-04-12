@@ -13,6 +13,9 @@ import android.widget.Button;
 import android.widget.Toast;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.android.vitalrecycling.R;
+import com.example.android.vitalrecycling.RecycleViewAdapter;
+
 public class Tab1FragmentR extends Fragment {
     private static final String TAG = "Tab1FragmentR";
 
