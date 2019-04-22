@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "557727399534",
+    "firebase_url": "https://officalvital.firebaseio.com",
+    "project_id": "officalvital",
+    "storage_bucket": "officalvital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557727399534:android:89b2d75fba5636b7",
+        "android_client_info": {
+          "package_name": "com.example.android.vitalrecycling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557727399534-p57hh4n57jcl1ap264pikll2vsmkvo95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.vitalrecycling",
+            "certificate_hash": "04493beeaeb13c0ead1052110e121fa093a9a2bf"
+          }
+        },
+        {
+          "client_id": "557727399534-13p40ri6s6b5ifrsr90r9fgtkilrpoef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.vitalrecycling",
+            "certificate_hash": "a3ec75c15cfe80a92064d05ff34db5d7e636f5bc"
+          }
+        },
+        {
+          "client_id": "557727399534-fsp3igrp1ejpuhqt8tv5ds7cn3tsutuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApnR0fN7p2TCvEGSiSvykyxotoXA93u7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557727399534-fsp3igrp1ejpuhqt8tv5ds7cn3tsutuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

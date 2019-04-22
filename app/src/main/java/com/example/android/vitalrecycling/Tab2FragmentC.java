@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class Tab2FragmentC extends Fragment {
-    private static final String TAG = "Tab2Fragment";
+    private static final String TAG = "Tab2FragmentC";
 
     private Button btnTEST;
 
