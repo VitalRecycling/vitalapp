@@ -28,34 +28,66 @@
     <string name="recycle_info">The Kingsville Recycling Center provides the community
         a convenient and efficient method of diversion of renewable resources from the
         city landfill, the education of recycling to the public, and to continue the
-        pursuit of meeting the goals of SB1340 by the State of Texas. Recycling Center
+        pursuit of meeting the goals of SB1340 by the State of Texas. The Recycling Center
         collaborates with Sanitation Division and Landfill Division to collect the city’s recycling.
-        \n\nBelow is a list of acceptable materials.
+        \n\nBelow is a list of acceptable materials \n(Paper, Plastic, Aluminum and Cardboard).
     </string>
     <string name="infotitle">Information </string>
-    <string name="contact_info"><b>Attention:</b> Jennifer Bernal\n
+    <string name="contact_info"><b>Attention:</b> Maryann Trejo\n
         <b>Mailing:</b> P.O. Box 1458 Kingsville, TX 78364\n
         <b>Physical:</b> 202 W. Lee Kingsville, TX 78363\n
         <b>Phone:</b> (361) 595-8093\n
         <b>Fax:</b> (361) 595-8042\n
-        <b>E-Mail:</b> jbernal@cityofkingsville.com
+        <b>E-Mail:</b> mtrejo@cityofkingsville.com
     </string>
     <string name="hours"><b>Monday - Friday:\n</b>
         7:30a.m. - 12:00p.m.\n
         1:00p.m. - 4:30p.m.\n
         <b>1st and 3rd saturday:\n</b>
         9:00a.m. - 12:00p.m.\n\n
-        <i>Closed on all City Holidays</i>
+        <i>Closed on all City Holidays\n\n</i>
+        <i>*After hours drop-off is available via side entrance</i>
+
     </string>
     <string name="contact_title">Contact Information</string>
     <string name="hour_title">Hours of Operation</string>
+
+
+    <string name="campusbutton">TAMUK</string>
+    <string name="title_activity_campus">CampusActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_maps">Map</string>
+
+
+
+    <!--Cash Tab 1-->
     <string name="cashtitle">ABC Recycling </string>
-    <string name="cashInfo">ABC Recycling is a privately owned busniess which buys SCRAP METAL.
-        The materials they buy vary from cans, scrap aluminum, copper, brass, stainless steel, car batteries, lead, motors, and more.
+    <string name="cashInfo">ABC Recycling is classified under scrap and waste materials wholesale and has been in business for 6 to 9 years.
+        ABC Recycling is a public business which buys SCRAP METAL.
+        The materials they buy vary from cans, scrap aluminum, copper, brass, stainless steel, car batteries, lead, motors, and more.\n\n
+        Anyone who is interested in making a small profit or big depending on the price and weight of the collected material can go the ABC Recycling
+        to get apprised.\n\n
+        Their value of the materials are referred from the CMC Recycling company from Corpus Christi which pays top dollar for scrap metal.\n\n
+        Once in there hands, ABC compacts the materials, if possible, to make room for more materials.
     </string>
+    <string name="cash_CMC">CMC Recycling</string>
+    <string name="cash_CMCInfo">CMC Recycling is committed to preserving and protecting our environment for future generations.
+        We utilize the most modern processing technologies in a way that minimizes the impact on the environment.
+        Compliance with national and local regulations is viewed as the minimum requirements by our facilities.
+        We continually strive to find improved solutions for protecting our environment.</string>
+
+
+    <!--Cash Tab 2-->
+    <string name="cash_priceTitle">Pricings </string>
+
+
+    <!--Cash Tab 3-->
+    <string name="Cash_info_title">Information</string>
     <string name="cashcontact_title">Contact Information</string>
-    <string name="cashcontact_text"><b>Physical:</b> 708 S. Sixth St Kingsville, Texas 78363\n\n
-        <b>Phone:</b> (361) 592-3443\n
+    <string name="cashcontact_text"><b>Location:</b> Kingsville\n <b>Physical:</b> 708 S. Sixth St Kingsville, Texas 78363\n
+        <b>Phone:</b> (361)592-3443\n\n<b>Location:</b> Corpus Christi\n
+        <b>Physical:</b> 4702 Leopard St Corpus Christi, Texas 78408\n<b>Phone:</b> (361)884-2296
     </string>
     <string name="cashhours_title">Hours of Operation</string>
     <string name="cashhours_text"><b>Mondays:\n</b>
@@ -65,9 +97,73 @@
         <b>Weekends:\n</b>
         9:00a.m. - 3:00p.m.\n\n
     </string>
-    <string name="campusbutton">TAMUK</string>
-    <string name="title_activity_campus">CampusActivity</string>
-    <string name="section_format">Hello World from section: %1$d</string>
-    <string name="sign_out">Sign Out</string>
+    <string name="CashLocBtn">Location</string>
+
+    <!--Recycle Process Tab-->
+    <string name="process_title">Recycling Process</string>
+    <string name="process_start">The city of kingsville does not enforce recycling, Recycling is done on a voluntary basis.</string>
+
+    <string name="process_services">Services</string>
+    <string name="services_info">
+        If you have any old cell phones that you want to recycle, bring them to the Recycling Center.
+        No accessories please, only the cell phone with the battery.\n\n
+        Document shredding is available by appointment. Please call the office. The cost is $0.15 per pound.
+        Presentations and on/off-site tours for groups, organizations, and schools are available by appointment.\n\n
+        The Recycled Reading Room is open. Books are available to take, return, keep or share.
+        Volunteers are always welcome. </string>
+
+    <string name="SingleStream_title">Single Stream Recycling</string>
+    <string name="recycling_process">The Recycling Center uses a Single Stream Process.\n\n
+        Single Stream Recycling refers to a system in which all kinds of recyclables
+        such as plastics, paper, metals, glass etc. are put into a single bin by consumers.
+        Afterward, the recyclables are collected and transported to a material Recovery Facility (MRF)
+        where they are sorted and processed. \n\n
+        In this case the recycling center uses the services of Republic Services from Corpus Christi</string>
+    <string name="RecycleLocBtn">Location</string>
+
+    <!--Campus Info Tab-->
+    <string name="campus_title">Texas A &amp; M University - Kingsville</string>
+    <string name="campus_info">The campus of Texas A&amp;M University - Kingsville (TAMUK) is very supportive of recycling.
+        Many programs are provided to keep the campus clean and green. Sustainability and Recycling are a underlined focus when
+        speaking of such programs. Many of which were incorporated by The Office of Sustainability.
+    </string>
+    <string name="campus_missionTitle">Mission</string>
+    <string name="campus_mission">Campus Sustainability promotes the stewardship of societal and environmental resources by developing and joining
+        in initiatives both internal and external to our campus, in order to cultivate the spirit of sustainability throughout the Javelina Nation and for future generations.</string>
+
+    <string name="campus_SustsainalityTitle">Campus Sustainability</string>
+    <string name="campus_sustainablityInfo">Campus Sustainability promotes the stewardship of societal and environmental resources
+        by developing and joining in initiatives both internal and external to our campus. Located in the Javelina Student Engagement Center (JSEC),
+        the door is always open to students, faculty, staff, administrators and the Kingsville community.</string>
+
+    <string name="campus_Recycling">How Recycling Works on Campus</string>
+    <string name="campus_RecyclingInfo">TAMUK campus recycling is trucked to the Kingsville Recycling Center where it is checked for contamination before
+        being sent to Corpus Christi. If a bag of recyclables has any food or drink contamination, the entire batch is thrown away as garbage.\n\n
+        From the Corpus Christi Recycling Center it is shipped to recycling plants so that the materials can be re-introduced into industrial production.
+        Therefore we are only able to recycle materials that Corpus Christi recycles.*\n\n
+        <b>Mixed paper:</b> newspaper, office paper, clean paper bags, paperboard boxes, etc.\n\n
+        <b>Plastic &amp; Metal:</b> milk jugs, water bottles, plastic with triangle symbols 1-6 (but no Styrofoam or wrappers) &amp; steel cans, aluminum cans,clean foil\n\n
+        <b>Garbage is garbage!:</b> Keep it out of the recycling bins! it all goes to the landfill: food contaminants, non-recyclable plastics, etc.
+    </string>
+
+    <string name="campus_routestitle">Routes</string>
+    <string name="campus_routesinfo">With a few exceptions, it is the responsibility of the Recycling staff to transport materials from various containers throughout the campus,
+        located internally and externally of university buildings. The University is running the special service to transport recyclable waste to the Kingsville Recycling Center. </string>
+    <string name="campus_recycle">Recycling</string>
+    <string name="campus_recycleinfo">The Recycling Program is housed within the Department of Risk Management &amp; Sustainability. In 2011, the Recycling Program was
+        integrated with the City of Kingsville well-established waste management resources in order to increase efficiency and the recovery of materials diverted from
+        the solid waste stream. </string>
+
+    <string name="campus_bins">Campus Bins</string>
+    <string name="campus_binsinfo">There are the bins you will find in locations across campus, both indoors and outdoors.
+        Blue bins are for recycling and brown bins are for garbage - keep it separate!\n\n
+        <b>Residence Halls</b> > students > indoor large blue bins > emptied by recycling crew\n\n
+        <b>Offices bins</b> > faculty and staff > indoor large blue bins > emptied by recycling crew\n\n
+        <b>Indoor large blue bins</b> > campus community > emptied by recycling crew\n\n
+        <b>Outdoor blue roll-out bins</b> > custodial staff > emptied by recycling crew\n\n
+        <b>Outdoor cages</b> > campus community > emptied by recycling crew
+    </string>
+
+    <string name="Mapbtn">Map</string>
 
 </resources>

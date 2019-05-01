@@ -22,8 +22,8 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/materialList"
-        android:layout_width="354dp"
-        android:layout_height="236dp"
+        android:layout_width="345dp"
+        android:layout_height="314dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -45,6 +45,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/recycle_info"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"

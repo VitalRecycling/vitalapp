@@ -1,6 +1,7 @@
 package com.example.android.vitalrecycling;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -9,12 +10,19 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.android.vitalrecycling.R;
 import com.example.android.vitalrecycling.SectionsPageAdapter;
 import com.example.android.vitalrecycling.Tab1FragmentR;
 import com.example.android.vitalrecycling.Tab2FragmentR;
 import com.example.android.vitalrecycling.Tab3FragmentR;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 
 public class RecycleActivity extends AppCompatActivity {
 
@@ -25,7 +33,7 @@ public class RecycleActivity extends AppCompatActivity {
 
     private ViewPager mViewPager;
 
-
+    GoogleSignInClient mGoogleSignInClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,24 +51,44 @@ public class RecycleActivity extends AppCompatActivity {
         TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+
+        // Build a GoogleSignInClient with the options specified by gso.
+        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+
+        GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(RecycleActivity.this);
+
         FloatingActionButton fab = findViewById(R.id.fabHome2);
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i;
-                i = new Intent(RecycleActivity.this, MainActivity.class);
-                startActivity(i);
+                signOut();
             }
         });
     }
+
+    private void signOut() {
+        mGoogleSignInClient.signOut()
+                .addOnCompleteListener(this, new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        Toast.makeText(RecycleActivity.this,"Successfully signed out",Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(RecycleActivity.this, SignIn.class));
+                        finish();
+                    }
+                });
+    }
+
     //tabs setup...can add more
     private void setupViewPager(ViewPager viewPager){
 
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
         adapter.addFragment(new Tab1FragmentR(), "Info");
-        adapter.addFragment(new Tab2FragmentR(), "Contacts");
-        adapter.addFragment(new Tab3FragmentR(), "Location");
+        adapter.addFragment(new Tab2FragmentR(), "Process");
+        adapter.addFragment(new Tab3FragmentR(), "Contact");
         viewPager.setAdapter(adapter);
 
     }

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/location_Search"
+            android:layout_width="314dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="25dp"
+            android:layout_toStartOf="@+id/Serching_address"
+            android:ems="10"
+            android:hint="Search Location..."
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <ImageButton
+            android:id="@+id/Serching_address"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClick"
+            android:src="@android:drawable/ic_search_category_default" />
+
+    </RelativeLayout>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="45dp"
+        tools:context=".MapsActivity" />
+
+    <RelativeLayout
+        android:id="@+id/bottomButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/CashButton"
+        android:layout_width="122dp"
+        android:layout_height="82dp"
+        android:layout_alignBottom="@+id/map"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="67dp"
+        android:onClick="onClick"
+        android:text="Cash" />
+
+    <Button
+        android:id="@+id/recycleButton"
+        android:layout_width="122dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="47dp"
+        android:layout_toEndOf="@+id/CashButton"
+        android:onClick="onClick"
+        android:text="Recycle" />
+
+</RelativeLayout>
+

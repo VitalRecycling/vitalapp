@@ -24,15 +24,7 @@ public class Tab2FragmentR extends Fragment {
 
         View view = inflater.inflate(R.layout.tab2_fagmentsr,container,false);
 
-        btnTEST = view.findViewById(R.id.btnTEST2);
 
-        btnTEST.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 2", Toast.LENGTH_SHORT).show();
-
-            }
-        });
 
         return view;
     }

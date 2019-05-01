@@ -33,10 +33,10 @@ public class Tab1FragmentR extends Fragment {
 
         View view = inflater.inflate(R.layout.tab1_fagmentsr,container,false);
 
-        String[] materials = {"Aluminum Cans & Scrap: " , "   Foil", "   Pie Tins", "   Soda Cans",
-                "Bi-Metal, Steel, & Tin Cans: ", "   Metal lids", "   fruit, vegetable, & pet food cans, etc.",
-                "Paper: ", "   Magazines", "   Office paper", "   Newspapers",
-                "Plastic: ", "   Recycling Number #1 - #7", "   Milk Jugs", "   Shampoo Bottles", "   Soda Bottles", "   Misc. Bottles"};
+        String[] materials = {"Aluminum Cans & Scrap: " , "   - Foil", "   - Pie Tins", "   - Soda Cans",
+                "Bi-Metal, Steel, & Tin Cans: ", "   - Metal lids", "   - fruit, vegetable, & pet food cans, etc.",
+                "Paper: ", "   - Magazines", "   - Office paper", "   - Newspapers",
+                "Plastic: ", "   * Recycling Number #1 - #7", "   - Milk Jugs", "   - Shampoo Bottles", "   - Soda Bottles", "   - Misc. Bottles"};
 
         /*
         btnTEST = view.findViewById(R.id.btnTEST);

@@ -1,5 +1,6 @@
 package com.example.android.vitalrecycling;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -8,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class Tab3FragmentC extends Fragment {
     private static final String TAG = "Tab2FragmentC";
@@ -22,13 +22,15 @@ public class Tab3FragmentC extends Fragment {
 
         View view = inflater.inflate(R.layout.tab3_fagmentsc,container,false);
 
-        btnTEST = view.findViewById(R.id.btnTEST3);
+        btnTEST = view.findViewById(R.id.RecycleLocBtn);
 
         btnTEST.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 3 Campus", Toast.LENGTH_SHORT).show();
-
+                //Toast.makeText(getActivity(), "TESTING BUTTON CLICK 3 Campus", Toast.LENGTH_SHORT).show();
+                Intent i;
+                i = new Intent(getActivity(), MapsActivity2.class);
+                startActivity(i);
             }
         });
         return view;
