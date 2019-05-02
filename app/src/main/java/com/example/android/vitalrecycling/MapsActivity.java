@@ -133,8 +133,8 @@ public class MapsActivity extends FragmentActivity implements
 
             case R.id.CashButton:
                 mMap.clear();
-                String Scrap= "scrap yards";
-                String url= getUrl(latitude, longitude, Scrap);
+                String School= "scrap yards";
+                String url= getUrl(latitude, longitude, School);
                 transferData[0]=mMap;
                 transferData[1]=url;
 
@@ -148,8 +148,8 @@ public class MapsActivity extends FragmentActivity implements
 
             case R.id.recycleButton:
                 mMap.clear();
-                String Recy= "recycle centers";
-                url= getUrl(latitude, longitude, Recy);
+                String hospital= "recycle centers";
+                url= getUrl(latitude, longitude, hospital);
                 transferData[0]=mMap;
                 transferData[1]=url;
 
